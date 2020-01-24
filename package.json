@@ -1,12 +1,13 @@
 {
-  "name": "ReactNativePlaygroundRc",
+  "name": "react-native-playground-rc",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "prepare":"cd ios && pod install"
   },
   "dependencies": {
     "react": "16.11.0",
