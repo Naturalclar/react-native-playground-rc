@@ -22,7 +22,7 @@ import {
   Colors,
   DebugInstructions,
   ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+} from './NewAppScreen';
 
 const App: () => React$Node = () => {
   return (

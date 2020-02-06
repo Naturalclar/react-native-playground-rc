@@ -7,11 +7,16 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "prepare":"cd ios && pod install"
+    "prepare": "cd ios && pod install",
+    "start:web": "react-scripts start",
+    "build:web": "react-scripts build"
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.0-rc.1"
+    "react-native": "0.62.0-rc.1",
+    "react-native-web": "^0.12.0",
+    "react-scripts": "^3.3.1",
+    "react-dom": "16.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -24,5 +29,17 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
